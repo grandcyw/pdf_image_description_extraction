@@ -1,7 +1,6 @@
 # pdf_image_description_extraction
 一、环境和用法
-  Performed on windows Visual Studio.
-  authorized by root(管理员权限打开VS）
+  Windows系统下以管理员身份打开Visual Studio
   import fitz库，pdf所在文件夹对应pdfdir，输出文件夹对应imgpath，更改后运行
 二、主要功能
   把pdfdir下所有pdf的图片和图片描述按页提取到imgpath文件夹下，过滤了前10页和小于2K的图片
